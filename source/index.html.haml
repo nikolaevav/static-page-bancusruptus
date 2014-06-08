@@ -55,12 +55,12 @@ body_class: main
             %span :
           #counter
     .row
-      .form-message
+      .form-message#callback
         %form.simple_form.subscriber{"accept-charset" => "UTF-8", action: "/callback.php", "data-remote" => "true", method: "post"}
           .first-block.col-sm-4.col-md-4
             %input.string.required.form-control.j-callback-name{"aria-required" => "true", name: "name", required: "required", type: "text", placeholder: "Ваше Имя:"}
           .second-block.col-sm-4.col-md-4
-            %input.string.required.form-control.form-control.j-callback-phone{"aria-required" => "true", name: "phone", required: "required", type: "text", placeholder: "Ваш телефон:"}
+            %input.string.required.form-control.form-control.j-callback-phone#phone_number{"aria-required" => "true", name: "phone", required: "required", type: "text", placeholder: "Ваш телефон:"}
           .last-btn.col-sm-4.col-md-4
             %input.btn.j-callback-send{name: "commit", type: "submit", value: "Отправить заявку"}
 

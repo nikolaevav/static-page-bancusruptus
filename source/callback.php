@@ -25,14 +25,13 @@ if (isset($_POST['11F1A3A9CC1486DFFECC0F35334CDF16FAEF863D']) && isset($_POST['8
 
   //
   if (mail('nuriko@inbox.ru','Обратный звонок для клиента сайта bancusruptus.ru',$pismo,$headers)) {
-    // if (mail("postavka.transporta@mail.ru","Сообщение от пользователя сайта postavka-transporta.ru",$pismo,$headers)) {
     echo"Ваши контакты были отправлены. Пожалуйста подождите и с вами свяжется наш сотрудник";
   } else {
     echo"Ошибка при отправке, попробуйте позднее";
   }
 
 }
-// echo"<script type='text/javascript'>document.location.href='http://http://postavka-transporta.ru/';</script>";
+// echo"<script type='text/javascript'>document.location.href='http://bancusruptus.ru/';</script>";
 //
 // </body>
 // </html>

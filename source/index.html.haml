@@ -1,0 +1,116 @@
+---
+title: Поставка транспорта
+body_class: main
+---
+.alert-block
+  .alert-message-true
+
+.header
+  .navigation
+    .container
+      .row
+        .col-sm-4.col-md-4
+          %img{ src: '/images/logo-top.png'}
+        .col-sm-4.col-md-4.bold-text
+          Система управления
+          %br
+          процедурами банкротства
+        .col-sm-3.col-md-3.bold-phone
+          .phone-1
+            +7-952-051-99-22
+          .phone-2
+            +7-911-425-84-52
+
+  .container
+    .row
+      .col-sm-12.col-md-12
+        .counter-block
+          .title
+            %span Д
+            %span О
+            %span.sep
+            %span В
+            %span Ы
+            %span Х
+            %span О
+            %span Д
+            %span А
+            %span.sep
+            %span П
+            %span Р
+            %span О
+            %span Е
+            %span К
+            %span Т
+            %span А
+            %span.sep
+            %span О
+            %span С
+            %span Т
+            %span А
+            %span Л
+            %span О
+            %span С
+            %span Ь
+            %span :
+          #counter
+    .row
+      .form-message
+        %form.simple_form.subscriber{"accept-charset" => "UTF-8", action: "/callback.php", "data-remote" => "true", method: "post"}
+          .first-block.col-sm-4.col-md-4
+            %input.string.required.form-control.j-callback-name{"aria-required" => "true", name: "name", required: "required", type: "text", placeholder: "Ваше Имя:"}
+          .second-block.col-sm-4.col-md-4
+            %input.string.required.form-control.form-control.j-callback-phone{"aria-required" => "true", name: "phone", required: "required", type: "text", placeholder: "Ваш телефон:"}
+          .last-btn.col-sm-4.col-md-4
+            %input.btn.j-callback-send{name: "commit", type: "submit", value: "Отправить заявку"}
+
+.text-block
+  .container
+    .row
+      .col-sm-12.col-md-12
+        %h3.title-text Урегулирование задолженности, широкое применение процедур банкротства - наша специализация.
+    .row
+      .col-sm-7.col-md-7.row-text
+        .col-left
+          %p
+            %strong Bancus ruptus
+            – разрабатываемая нами система управления процедурами банкротства, включающая электронный документооборот и обмен информацией, основанная на принципе контролируемого банкротства всеми участниками процедуры.
+          %p
+            %strong Правовое регулирование (ООО)
+            – команда профессионалов, нацеленных на реальный результат. Обширный опыт сопровождения и ведения процедур банкротства в самых разных сферах деятельности позволяет нам правильно оценить перспективы погашения задолженности, выбрать оптимальный способ её урегулирования и добиться максимального удовлетворения требований клиента.
+          %p
+            Главный принцип нашей работы – комплексный подход к ситуации, поиск эффективных решений с вовлечением в нашу орбиту широкого круга участников. Процедуры банкротства – один из основных реально работающих и активно используемых нами механизмов урегулирования задолженности.
+
+      .col-sm-5.col-md-5.row-text
+        .col-right
+          %p
+            Банкротство ONLINE – из любой точки планеты 24 часа в сутки.
+            До запуска системы осталось
+            %span.j-days дней.
+            Если у Вас есть вопросы, предложения, замечания – мы рады Вам!
+          %p
+            Спектр наших услуг:
+          .list
+            %p
+              %ul
+                %li сбор информации и оценка должников;
+                %li взыскание задолженности;
+                %li предотвращение банкротства;
+                %li сопровождение и ведение процедур банкротства, консультирование;
+                %li представительство интересов кредиторов и должников в арбитражных судах, иных государственных органах, а также в переговорах с участниками процесса банкротства;
+                %li предотвращение вывода активов должника;
+                %li контроль за действиями арбитражных управляющих;
+    .footer
+      .row
+        .col-sm-4.col-md-4
+          %img{ src: '/images/logo-bottom.png'}
+        .col-sm-4.col-md-4.bold-text
+          Система управления
+          %br
+          процедурами банкротства
+        .col-sm-3.col-md-3.bold-phone
+          .phone-1
+            +7-952-051-99-22
+          .phone-2
+            +7-911-425-84-52
+

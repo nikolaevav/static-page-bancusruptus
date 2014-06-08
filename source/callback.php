@@ -24,7 +24,7 @@ if (isset($_POST['11F1A3A9CC1486DFFECC0F35334CDF16FAEF863D']) && isset($_POST['8
   $headers .= 'From: h4539@ptzhost.com' . "\r\n";
 
   //
-  if (mail('nuriko@inbox.ru','Обратный звонок для клиента сайта bancusruptus.ru',$pismo,$headers)) {
+  if (mail('nafs39@gmail.com)','Обратный звонок для клиента сайта bancusruptus.ru',$pismo,$headers)) {
     echo"Ваши контакты были отправлены. Пожалуйста подождите и с вами свяжется наш сотрудник";
   } else {
     echo"Ошибка при отправке, попробуйте позднее";

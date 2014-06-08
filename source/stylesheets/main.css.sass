@@ -24,6 +24,7 @@ a
     height: 173px
     background-color: black
     background-color: rgba(0,0,0,0.5)
+    z-index: 1
     .bold-text
       padding: 18px 0 0 59px
       color: white
@@ -38,13 +39,17 @@ a
       font-family: Arial Black
       color: white
       font-size: 20px
-      .phone-1, .phone-2
+      .phone-1, .phone-2, .mail
         position: absolute
         right: -72px
       .phone-1
-        top: 33px
+        top: 43px
       .phone-2
         top: 66px
+      .mail
+        top: 20px
+        a
+          color: white
 
 
 .text-block
@@ -72,7 +77,7 @@ a
 
 .counter-block
   color: white
-  padding-top: 217px
+  margin-top: 217px
   .title
     text-align: center
     font-size: 16px
@@ -124,13 +129,15 @@ a
     position: relative
     font-family: Arial Black
     font-size: 20px
-    .phone-1, .phone-2
+    .phone-1, .phone-2, .mail
       position: absolute
       right: -72px
     .phone-1
-      top: 33px
+      top: 43px
     .phone-2
       top: 66px
+    .mail
+      top: 20px
 
 .form-message
   display: table
